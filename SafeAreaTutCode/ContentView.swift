@@ -21,6 +21,8 @@ struct ContentView: View {
         .frame(maxWidth: .infinity, maxHeight: .infinity)
         ////.frame(maxWidth: .infinity)
         .background(Color.red, ignoresSafeAreaEdges: .all)
+            //.ignoresSafeArea()
+        //.ignoresSafeArea(edges: .top)
         //.edgesIgnoringSafeArea(.all)
 
             //.padding()
