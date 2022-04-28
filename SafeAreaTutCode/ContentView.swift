@@ -11,16 +11,17 @@ struct ContentView: View {
     var body: some View {
         VStack {
             Text("Bonsoir Elliot!")
-                .frame(maxWidth: .infinity, maxHeight: .infinity)
-                ////.frame(maxWidth: .infinity)
-                .background(Color.red)
-                .edgesIgnoringSafeArea(.all)
+                .padding()
+//                .frame(maxWidth: .infinity, maxHeight: .infinity)
+//                ////.frame(maxWidth: .infinity)
+                .background(Color.blue)
+//                .edgesIgnoringSafeArea(.all)
             Spacer()
         }
-//        .frame(maxWidth: .infinity, maxHeight: .infinity)
-//        ////.frame(maxWidth: .infinity)
-//        .background(Color.red)
-//        .edgesIgnoringSafeArea(.all)
+        .frame(maxWidth: .infinity, maxHeight: .infinity)
+        ////.frame(maxWidth: .infinity)
+        .background(Color.red, ignoresSafeAreaEdges: .all)
+        //.edgesIgnoringSafeArea(.all)
 
             //.padding()
     }
